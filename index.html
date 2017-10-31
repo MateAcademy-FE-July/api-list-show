@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Guardian API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="out">
+    <h1 class="heading">The Guardian List</h1>
+    <button id="refresh-btn" class="btn" type="button">Refresh</button>
+    <ul class="app-list">
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+      <li>Junior attention doctors strike</li>
+    </ul>
+
+    <div class="pagination">
+      <button class="pagination__prev" value="prev" type="button">&lt;</button>
+      <!-- todo: dynamic fill by JS [min and max] -->
+      <div class="input-group">
+          <input id="post-pag" type="number" min="1" max="100000"> of <span>1000</span> pages
+      </div>
+      <button class="pagination__next" value="next" type="button">&gt;</button>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

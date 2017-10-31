@@ -1,0 +1,23 @@
+.heading {
+  text-align: center
+}
+
+.out {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
